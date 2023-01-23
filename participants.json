@@ -1,0 +1,14 @@
+{
+    "codename": {
+        "LongName": "Participant raw ID",
+        "Description": "The first two initials of first and last name"
+    },
+    "age": {
+        "LongName": "Age of the participant",
+        "Description": "Age on the date of acquisition"
+    },
+    "gender": {
+        "LongName": "Gender of the participant",
+        "Description": "m/f"
+    }
+}

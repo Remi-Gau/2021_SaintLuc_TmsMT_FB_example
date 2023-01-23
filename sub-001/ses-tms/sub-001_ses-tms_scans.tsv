@@ -1,0 +1,9 @@
+filename	acq_time
+beh/sub-001_ses-tms_task-audMotionDirDiscrimination_run-001_events.tsv	2021-06-17T10:20:00
+beh/sub-001_ses-tms_task-audMotionDirDiscrimination_run-002_events.tsv	2021-06-17T10:28:00
+beh/sub-001_ses-tms_task-audInstrumentDiscrimination_run-001_events.tsv	2021-06-17T10:23:00
+beh/sub-001_ses-tms_task-audInstrumentDiscrimination_run-002_events.tsv	2021-06-17T10:26:00
+beh/sub-001_ses-tms_task-visMotionDirDiscrimination_run-001_events.tsv	2021-06-17T10:31:00
+beh/sub-001_ses-tms_task-visMotionDirDiscrimination_run-002_events.tsv	2021-06-17T10:40:00
+beh/sub-001_ses-tms_task-visColourDiscrimination_run-001_events.tsv	2021-06-17T10:34:00
+beh/sub-001_ses-tms_task-visColourDiscrimination_run-002_events.tsv	2021-06-17T10:37:00

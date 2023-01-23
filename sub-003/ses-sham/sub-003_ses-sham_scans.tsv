@@ -1,0 +1,10 @@
+filename	acq_time
+beh/sub-003_ses-sham_task-audMotionDirDiscrimination_run-001_events.tsv	2021-06-28T16:15:00
+beh/sub-003_ses-sham_task-audMotionDirDiscrimination_run-002_events.tsv	2021-06-28T16:18:00
+beh/sub-003_ses-sham_task-audInstrumentDiscrimination_run-001_events.tsv	2021-06-28T16:12:00
+beh/sub-003_ses-sham_task-audInstrumentDiscrimination_run-002_events.tsv	2021-06-28T16:22:00
+beh/sub-003_ses-sham_task-visMotionDirDiscrimination_run-001_events.tsv	2021-06-28T15:58:00
+beh/sub-003_ses-sham_task-visMotionDirDiscrimination_run-001_events.tsv	2021-06-28T16:03:00
+beh/sub-003_ses-sham_task-visMotionDirDiscrimination_run-002_events.tsv	2021-06-28T16:06:00
+beh/sub-003_ses-sham_task-visColourDiscrimination_run-001_events.tsv	2021-06-28T16:00:00
+beh/sub-003_ses-sham_task-visColourDiscrimination_run-002_events.tsv	2021-06-28T16:09:00

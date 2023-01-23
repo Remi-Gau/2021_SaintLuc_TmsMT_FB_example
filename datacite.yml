@@ -1,0 +1,29 @@
+authors:
+  - firstname: Friederike
+    lastname: Breuer
+  - firstname: Battal
+    lastname: Ceren
+  - firstname: Ceren
+    lastname: Battal
+    affiliation: UCLouvain
+    id: ORCID:0000-0002-9844-7630
+  - firstname: Friederike
+    lastname: Breuer
+    affiliation: UCLouvain
+    id: ORCID:0000-0002-3020-6590
+title: TMS stimulation of MT
+description: TMS study of the effect of stimulating MT on motion perception
+keywords:
+  - tms
+  - MT
+  - motion
+license:
+  name: CC0-1.0
+  url: https://creativecommons.org/publicdomain/zero/1.0/
+resourcetype: Dataset
+references:
+  - citation: ''
+    id: ''
+    reftype: IsSupplementTo
+templateversion: 1.2
+funding: []

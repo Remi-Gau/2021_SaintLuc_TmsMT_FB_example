@@ -1,0 +1,41 @@
+{
+  "onset": {
+    "LongName": "onset",
+    "Description": "Onset (in seconds) of the event, measured from the beginning of the acquisition\nof the first data point stored in the corresponding task data file.\nNegative onsets are allowed, to account for events that occur prior to the first\nstored data point.\nFor example, in case there is an in-scanner training phase that begins before\nthe scanning sequence has started events from this sequence should have\nnegative onset time counting down to the beginning of the acquisition of the\nfirst volume.\n\nIf any data points have been discarded before forming the data file\n(for example, \"dummy volumes\" in BOLD fMRI),\na time of 0 corresponds to the first stored data point and not the first\nacquired data point.\n",
+    "Units": "s"
+  },
+  "duration": {
+    "LongName": "duration",
+    "Description": "Duration of the event (measured from onset) in seconds.\nMust always be either zero or positive (or `n/a` if unavailable).\nA \"duration\" value of zero implies that the delta function or event is so\nshort as to be effectively modeled as an impulse.\n",
+    "Units": "s"
+  },
+  "trial_type": {
+    "LongName": "trial_type",
+    "Description": "Primary categorisation of each trial to identify them as instances of the\nexperimental conditions.\nFor example: for a response inhibition task, it could take on values `go` and\n`no-go` to refer to response initiation and response inhibition experimental\nconditions.\n"
+  },
+  "NIBS_HardwareSoftware": {
+    "Type": "TMS",
+    "Subtype": "cTMS",
+    "Description": "single pulse TMS",
+    "Manufacturer": "MagVenture",
+    "DeviceModelName": "MCF-B65",
+    "CoilSpec": "butterfly-coil",
+    "DeviceFirmware": "TODO",
+    "StimulationIntensity": "TODO",
+    "MotorThreshold": "TODO",
+    "ChargeDelay": "TODO",
+    "AuditoryMasking": "TODO",
+    "PulseSpec": {
+      "Waveform": "biphasic",
+      "PulseWidth": "TODO"
+    }
+  },
+  "NIBS_Procedure": {
+    "StimulationProcedure": "Using a butterfly-coil (MagVenture MCF-B65) one standard train of 600 biphasic pulses of cTBS (i.e. 41s) was delivered to hMT+/V5 in each hemisphere in turn at an intensity of 100% of subjects hemisphere-specific individual active motor threshold (AMT) (stimulator: MagPro X100).",
+    "StimulationIntensityProcedure": "The stimulation intensity was matched to the one used in a previous study, which applied cTBS to hMT+/V5 and successfully affected visual motion performance (Cai et al., 2014). The AMT for each hemisphere was determined at the start of each TMS session to account for interhemispheric differences and daily fluctuations. It was defined as the lowest stimulation intensity at which a single TMS pulse over the subjects’ motor hot spot evoked a small visible response in the contralateral first dorsal interosseous (FDI) muscle in 5 out of 10 consecutive trials when the subject activated the FDI muscles. In the given subject pool the AMT lay at an average intensity of 42% (SD = 6%, range = [32% 58%]) of the maximum stimulator output (MSO). The order in which the hemispheres were stimulated was counterbalanced across subjects."
+  },
+  "NIBS_Neuronavigation": {
+    "NeuronavigationSoftware": "Visor2 software",
+    "CameraManufacturer": "Localite TMS Navigator system"
+  }
+}

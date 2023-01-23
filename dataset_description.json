@@ -1,0 +1,14 @@
+{
+    "Name": "TMS stimulation of MT",
+    "BIDSVersion": "1.8.0",
+    "License": "CC0-1.0",
+    "Authors": [
+        "Ceren Battal, ORCID:0000-0002-9844-7630",
+        "Friederike Breuer, ORCID:0000-0002-3020-6590"
+    ],
+    "Acknowledgments": "",
+    "HowToAcknowledge": "",
+    "ReferencesAndLinks": [],
+    "DatasetDOI": "",
+    "Funding": []
+}
